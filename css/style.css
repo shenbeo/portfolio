@@ -327,7 +327,7 @@ header {
   .img-avatar {
     object-fit: cover;
     width: 400px;
-    background-image: url(../image/color.png);
+    background-image: url('../image/color.png');
   }
   .wrapper__btn {
     margin-top: 20px;
