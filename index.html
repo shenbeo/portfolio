@@ -25,13 +25,14 @@
 
                 <ul class="navbar__links">
                     <li class="navbar__link"><a href="#home">Home</a></li>
-                    <li class="navbar__link"><a href="#about">About</a></li>
+                    <li class="navbar__link"><a href="#wrapper">About</a></li>
                     <li class="navbar__link"><a href="#work">Work</a></li>
-                    <li class="navbar__link__btn"><a href="#contact">Contact</a></li>
+                    <li class="navbar__link"><a href="#contact">Contact</a></li>
+                    <!-- <li class="navbar__link__btn"><a href="#contact">Contact</a></li> -->
                 </ul>
 
                 <div class="navbar__icons">
-                    <div class="navbar__icon"></div>
+                    <div class="navbar__icon"> <i class="ri-menu-line"></i></div>
                 </div>
 
             </nav>
@@ -39,8 +40,12 @@
     </Header>
     <!-- END HEADER -->
 
+
+
+
+
     <!-- SLIPER -->
-    <div class="wrapper">
+    <div id="wrapper">
         <div class="container">
             <div class="wrapper__items">
 
@@ -50,15 +55,15 @@
                             <p class="text-mul"></p>
                         </div>
                     </h1>
-                    <p class="text-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, perferendis
-                        nihil exercitationem quas harum maiores cumque laborum quaerat. Cumque ratione modi vitae,
-                        quidem id necessitatibus iusto quo totam odio doloribus?</p>
+                    <p class="text-content">My name is NguyenThanhVinh. Currently, I am a final year student at the University of Transport in Ho Chi Minh City. Specialized in computer networking and data communication.</p>
                     <div class="wrapper__btn">
-                        <button class="btn ">Hire Me!</button>
+                        <button class="btn_dow">
+                                <a href="./download/CV_NguyenThanhVinh.pdf" download="">DOWNLOAD CV</a>
+                        </button>
                     </div>
 
                     <div class="wrapper__icon">
-                        <i class="ri-github-fill icon__mul"></i>
+                        <a href="https://github.com/shenbeo" class="ri-github-fill icon__mul"></a>
                         <i class="ri-linkedin-box-fill icon__mul"></i>
                         <i class="ri-instagram-fill icon__mul"></i>
                         <i class="ri-facebook-circle-fill icon__mul"></i>
@@ -66,7 +71,7 @@
                 </div>
 
                 <div class="wrapper-img">
-                    <img class="img-avatar" src="./image/avatar.png" alt="">
+                    <img class="img-avatar" src="./image/hinh.png" alt="">
                 </div>
 
             </div>
@@ -75,114 +80,98 @@
     <!--END SLIPER -->
 
 
-
-
-    <!-- ABOUT -->
-    <div id="about">
+    <section id="work">
         <div class="container">
-            <div class="content">
-                <h1>ABOUT ME</h1>
-                <p class="ab__left">who i am</p>
-            </div>
-            <div class="about__right">
-                <img src="./image/about.jpg" alt="">
-
-                <div class="about__text">
-                    <div class="about__right__text">
-                        I'am
-                        <p>Tony</p>
-                        .I'am
-                        <p>Coder, Designer.
-                            <h2 />
+            <h1>WORK</h1>
+<!-- 1 -->
+                <div class="works">
+                    <div class="work__img">
+                        <img src="./image/w1.jpg" alt="">
                     </div>
-
-                    <p class="about__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta iusto
-                        cumque tenetur ipsum consequatur voluptas minima, iste unde pariatur atque. Praesentium
-                        laudantium in iure quo dicta, nemo suscipit quae omnis?. Lorem ipsum dolor sit amet, consectetur
-                        adipisicing elit. Soluta iusto cumque tenetur ipsum consequatur voluptas minima, iste unde
-                        pariatur atque. Praesentium laudantium in iure quo dicta, nemo suscipit quae omnis?.</p>
-                    <button class="btn">Download CV</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- END ABOUT -->
-
-
-
-    <!-- WORK -->
-    <div id="work">
-        <div class="container">
-            <div>
-                <div class="content">
-                    <h1>WORK</h1>
-                </div>
-                <div class="work__img">
-                    <img class="gird__item" src="./image/work01.jpg" alt="">
-                    <img class="gird__item" src="./image/work02.jpg" alt="">
-                    <img class="gird__item" src="./image/work03.jpg" alt="">
-                    <img class="gird__item" src="./image/work04.jpg" alt="">
-                    <img class="gird__item" src="./image/work05.jpg" alt="">
-                    <img class="gird__item" src="./image/work06.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- END WORK -->
-
-
-    <!-- CONTACT -->
-    <div id="contact">
-        <div class="container">
-            <div>
-                <div class="content">
-                    <h1>CONTACT US</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-                <div class="contact__mul">
-                    <div class="contact__left">
-
-                        <div class="contact__item">
-                            <p>Full Name</p>
-                            <input class="input__contact" type="text" name="" id="" placeholder="Name...">
-                        </div>
-                        <div class="contact__item">
-                            <p>Email</p>
-                            <input class="input__contact" type="email" name="" id="" placeholder="Email...">
-                        </div>
-                        <div class="contact__item">
-                            <p>Type your Message</p>
-                            <input class="input__contact" type="text" name="" id="" placeholder="Message...">
-                        </div>
-                        <button class="btn btn__contact" type="submit">send</button>
-                    </div>
-                    <div class="contact__right">
-                        <img src="./image/contact.jpg" alt="">
+                    <div class="work__text">
+                            <ul>
+                                <li class="work__text_li">VMAC STORE</li>
+                                <hr>
+                                <li> Description: Website selling Apple technology products (data products used fake API)</li>
+                                <li> Features: Login and register (Firebase), filter, add and remove products, load more, responsive.</li>
+                                <li>Technologies: ReactJS, CSS, Tailwind, Material, Firebase.</li>
+                                <li class="work__text_btn"><a href="https://shenbeo.github.io/vmac-store">Demo</a></li>
+                            </ul>
                     </div>
                 </div>
-            </div>
+
+                <!-- 2 -->
+                <div class="works">
+                    <div class="work__img">
+                        <img src="./image/w2.jpg" alt="">
+                    </div>
+                    <div class="work__text">
+                            <ul>
+                                <li class="work__text_li">VMY STORE</li>
+                                <hr>
+                                <li> Description: Website about men's and women's fashion. (data products used fake API)</li>
+                                <li> Features: Filter, add and remove products, responsive.</li>
+                                <li>Technologies: ReactJS, CSS, Tailwind, Material.</li>
+                                <li class="work__text_btn"><a href="https://shenbeo.github.io/vmy.store">Demo</a></li>
+                            </ul>
+                    </div>
+                </div>
+
+                <!--3  -->
+                <div class="works">
+                    <div class="work__img">
+                        <img src="./image/w3.jpg" alt="">
+                    </div>
+                    <div class="work__text">
+                            <ul>
+                                <li class="work__text_li">PNV STORE</li>
+                                <hr>
+                                <li> Description: Website selling all kinds of vespa motorbikes.</li>
+                                <li> Features: Filter, login and register (NodeJS), add and remove products, load more, responsive</li>
+                                <li>Technologies: ReactJS, NodeJS, Rest API, Tailwind, CSS, Material.</li>
+                                <li class="work__text_btn"><a href="https://pnv-vespa.vercel.app">Demo</a></li>
+                            </ul>
+                    </div>
+                </div>
 
         </div>
-        <div class="contact__end">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt deserunt, dolorem, nemo aliquid
-                temporibus accusantium dolor reiciendis omnis sequi ex ullam velit earum placeat.</p>
-        </div>
-        <div class="contact__icons">
-            <i class="ri-github-fill contact__icon"></i>
-            <i class="ri-linkedin-box-fill contact__icon"></i>
-            <i class="ri-instagram-fill contact__icon"></i>
-            <i class="ri-facebook-circle-fill contact__icon"></i>
-        </div>
-        <div>
+    </section>
 
+    
+    <section id="contact">
+        <div class="container">
+            <h1>CONTACT</h1>
+                <div>
+                    <div class="contacts">
+                      
+                        <div class="contact__text_2">
+                                <ul>
+                                    <li><i class="ri-phone-fill"></i> 0964 383 797</li>
+                                    <li><i class="ri-mail-fill"></i> vinhnbt26@gmail.com</li>
+                                    <li><i class="ri-road-map-fill"></i> 60/13, Ung Van Khiem street, Binh Thanh district, Ho Chi Minh City.</li>
+                                    <li></li>
+                                </ul>
+                        </div>
+                        <div class="contact__img_2">
+                            <img src="https://img.freepik.com/free-vector/email-marketing-internet-chatting-24-hours-support_335657-3009.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
 
+    <section class="footer">
+    
+            <span>© 2023 NguyenThanhVinh</span>
+   
+    </section>
 
             <script src="./js/main.js"></script>
             <!-- hiệu ứng tự viết chữ -->
             <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
             <script>
                 var typingEffect = new Typed(".text-mul", {
-                    strings: ["Coder", "Designer"],
+                    strings: ["Coder"],
                     loop: true,
                     typeSpeed: 100,
                     backSpeed: 80,
